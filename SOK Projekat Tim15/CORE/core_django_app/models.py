@@ -127,6 +127,7 @@ class Graph:
         self._validate_vertex(v)
         return self._outgoing[u].get(v)
 
+
     def degree(self, v, outgoing=True):
         """ Vraća stepen čvora - broj(odlaznih) ivica iz čvora v u grafu.
 
